@@ -8,7 +8,7 @@
 
 <body>
 
-	<div id="page-wrap">
+	<div id="contact-area">
 
 		<h1>Your message has been sent!</h1><br />
 
