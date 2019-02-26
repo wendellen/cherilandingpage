@@ -13,8 +13,12 @@ html, body {
   position: relative;
 }
 
-html:active {
+html:hover {
   filter: invert(100%);
+}
+
+#contact-area button:hover {
+  transform: skewY(-10deg);
 }
 
 img {
@@ -32,7 +36,7 @@ img {
   height: 100%;
 }
 
-#contact-area input, #contact-area textarea {
+#contact-area input {
   font-family: 'Fjalla One', sans-serif;
   font-size: 2vw;
   padding: 5px;
@@ -40,7 +44,11 @@ img {
 	width: 32vw;
 }
 
-#contact-area input.submit-button {
+#contact-area button {
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 2vw;
+  padding: 5px;
+  border: 0px;
   width: 8vw;
   background-color: #FF69B4;
 }
